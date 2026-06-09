@@ -413,6 +413,18 @@ a{
   position: relative;
 }
 
+.overflow-x-auto{
+  overflow-x: auto;
+}
+
+.hide-scrollbar {
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
 /* icon 大小調整 */
 .fs-24{
     font-size: 24px;

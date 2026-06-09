@@ -11,20 +11,6 @@
   min-width: 306px;
 }
 
-.overflow-x-auto{
-    overflow-x: auto;
-}
-
-/* safari 瀏覽器的相容性-隱藏捲軸寬度 */
-.hide-scrollbar {
-  scrollbar-width: none;
-
-  &::-webkit-scrollbar {
-    display: none; /* Safari 專用 */
-  }
-}
-
-
 @media (max-width: 992px) {
   .card-list .card {
     min-width: 260px;
