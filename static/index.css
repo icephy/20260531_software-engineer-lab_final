@@ -11,12 +11,17 @@
   min-width: 306px;
 }
 
-.hide-scrollbar{
- scrollbar-width: none;
-}
-
 .overflow-x-auto{
     overflow-x: auto;
+}
+
+/* safari 瀏覽器的相容性-隱藏捲軸寬度 */
+.hide-scrollbar {
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none; /* Safari 專用 */
+  }
 }
 
 

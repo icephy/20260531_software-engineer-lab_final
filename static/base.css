@@ -413,16 +413,6 @@ a{
   position: relative;
 }
 
-/* safari 瀏覽器的相容性-隱藏捲軸寬度 */
-.hide-scrollbar {
-  scrollbar-width: none;
-
-  &::-webkit-scrollbar {
-    display: none; /* Safari 專用 */
-  }
-}
-
-
 /* icon 大小調整 */
 .fs-24{
     font-size: 24px;
