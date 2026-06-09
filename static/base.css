@@ -296,6 +296,10 @@ a{
     gap: 24px;
 }
 
+.gap-md-12{
+  gap: 12px;
+}
+
 .m-auto{
   margin: auto;
 }
@@ -316,6 +320,10 @@ a{
   margin-bottom: 24px;
 }
 
+.mb-40{
+  margin-bottom: 40px;
+}
+
 .mb-60{
   margin-bottom: 60px;
 }
@@ -326,6 +334,10 @@ a{
 
 .p-12{
   padding: 12px;
+}
+
+.p-24{
+  padding: 24px;
 }
 
 .px-12{
@@ -370,6 +382,11 @@ a{
 .py-80{
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.py-md-40{
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .text-center{
@@ -461,7 +478,7 @@ a{
     display: none;
   }
   .label-mobile-sm{
-    font-style: 14px;
+    font-size: 14px;
     font-weight: 500;
   }
   .w-md-full{
@@ -476,19 +493,35 @@ a{
   .order-md-2{
     order: 2;
   }
+  .heading-mobile-sm{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
   .heading-mobile-xl{
-    font-style: 40px;
+    font-size: 40px;
     font-weight: 700;
     line-height: 1.2;
   }
   .paragraph-mobile-sm{
-    font-style: 14px;
+    font-size: 14px;
     font-weight: 500;
   }
+
+.heading-mobile-xxxxsm{
+    font-size: 14px;
+    font-weight: 500;
+  }
+
   .px-md-0{
     padding-left: 0;
     padding-right: 0;
   }
+
+  .mb-md-8{
+    margin-bottom: 8px;
+  }
+
   .mb-md-12{
     margin-bottom: 12px;
   }
@@ -499,11 +532,11 @@ a{
     margin-bottom: 32px;
   }
   .label-mobile-sm{
-    font-style: 14px;
+    font-size: 14px;
     font-weight: 500;
   }
-  .heading-mobile-xlarge{
-    font-style: 40px;
+  .heading-mobile-xl{
+    font-size: 40px;
     font-weight: 700;
   }
   .py-md-24{

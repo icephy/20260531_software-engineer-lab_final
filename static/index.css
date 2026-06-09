@@ -7,6 +7,25 @@
     width: calc((100% - var(--gap)) / 2);
 }
 
+.card-list .card {
+  min-width: 306px;
+}
+
+.hide-scrollbar{
+ scrollbar-width: none;
+}
+
+.overflow-x-auto{
+    overflow-x: auto;
+}
+
+
+@media (max-width: 992px) {
+  .card-list .card {
+    min-width: 260px;
+  }
+}
+
 @media (max-width: 992px) {
     .nav-list{
         display: none;
