@@ -204,6 +204,7 @@ a{
 .heading-sm {
   font-size: 24px;
   font-weight: 700;
+  line-height: 1.5;
 }
 .heading-xs {
   font-size: 20px;
@@ -258,6 +259,10 @@ a{
 
 .flex-direction-column{
     flex-direction: column;
+}
+
+.justify-content-center{
+  justify-content: center;
 }
 
 .align-items-center{
@@ -316,6 +321,10 @@ a{
   margin-bottom: 4px;
 }
 
+.mb-12{
+  margin-bottom: 12px;
+}
+
 .mb-24{
   margin-bottom: 24px;
 }
@@ -339,6 +348,15 @@ a{
 .p-24{
   padding: 24px;
 }
+
+.p-28{
+  padding: 28px;
+}
+
+.p-40{
+  padding: 40px;
+}
+
 
 .px-12{
   padding-left: 12px;
@@ -382,11 +400,6 @@ a{
 .py-80{
     padding-top: 80px;
     padding-bottom: 80px;
-}
-
-.py-md-40{
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
 
 .text-center{
@@ -488,10 +501,7 @@ a{
   .d-md-none{
     display: none;
   }
-  .label-mobile-sm{
-    font-size: 14px;
-    font-weight: 500;
-  }
+  
   .w-md-full{
     width: 100%;
   }
@@ -504,22 +514,41 @@ a{
   .order-md-2{
     order: 2;
   }
-  .heading-mobile-sm{
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 1.2;
-  }
+
   .heading-mobile-xl{
     font-size: 40px;
     font-weight: 700;
     line-height: 1.2;
   }
+
+  .heading-mobile-xxxxsm{
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .heading-mobile-sm{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+  .heading-mobile-xsm{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.5;
+  }
+
   .paragraph-mobile-sm{
     font-size: 14px;
     font-weight: 500;
   }
 
-.heading-mobile-xxxxsm{
+  .paragraph-mobile-xsm{
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .label-mobile-sm{
     font-size: 14px;
     font-weight: 500;
   }
@@ -527,6 +556,33 @@ a{
   .px-md-0{
     padding-left: 0;
     padding-right: 0;
+  }
+
+  .px-md-16{
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .py-md-24{
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .py-md-40{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  }
+
+  .p-md-24{
+    padding: 24px;
+  }
+
+  .pt-md-280{
+    padding-top: 280px;
+  }
+
+  .pb-md-16{
+    padding-bottom: 16px;
   }
 
   .mb-md-8{
@@ -542,17 +598,7 @@ a{
   .mb-md-32{
     margin-bottom: 32px;
   }
-  .label-mobile-sm{
-    font-size: 14px;
-    font-weight: 500;
-  }
-  .heading-mobile-xl{
-    font-size: 40px;
-    font-weight: 700;
-  }
-  .py-md-24{
-    padding-top: 24px;
-    padding-bottom: 24px;
-  }
+  
+  
 }
 
