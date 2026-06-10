@@ -27,6 +27,11 @@
     max-width: 386px;
 }
 
+.subscription-bg{
+  position: relative;
+  background-image: url(https://github.com/hexschool/2022-web-layout-training/blob/main/2026-web-camp/subscription_bg.png?raw=true);
+}
+
 
 @media (max-width: 992px) {
     .nav-list{

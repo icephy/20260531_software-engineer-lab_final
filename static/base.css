@@ -345,6 +345,10 @@ a{
   margin-bottom: 92px;
 }
 
+.p-8{
+  padding: 8px;
+}
+
 .p-12{
   padding: 12px;
 }
@@ -384,6 +388,10 @@ a{
 
 .pr-16{
     padding-right: 16px;
+}
+
+.pr-0{
+  padding-right: 0;
 }
 
 .py-4{
@@ -446,6 +454,12 @@ a{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+.object-fit-cover{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* icon 大小調整 */
@@ -568,6 +582,16 @@ a{
     padding-right: 0;
   }
 
+  .px-md-20{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .px-md-12{
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
   .px-md-16{
     padding-left: 16px;
     padding-right: 16px;
@@ -608,7 +632,10 @@ a{
   .mb-md-32{
     margin-bottom: 32px;
   }
-  
+
+  .gap-md-0{
+    gap: 0px;
+  }
   
 }
 
