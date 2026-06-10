@@ -77,4 +77,8 @@
         max-width: none;
     }
     /* QA：這邊也可以寫 max-width: 100%; 嗎 */
+
+    .blog-card{
+        min-width: 260px;
+    }
 }
